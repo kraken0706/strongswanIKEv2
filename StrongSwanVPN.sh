@@ -154,10 +154,6 @@ mv /etc/ipsec.conf{,.original}
 mv ipsec.conf /etc/ipsec.conf
 mv ipsec.secrets /etc/ipsec.secrets
 
-
-echo "Restart Strongswan"
-systemctl restart strongswan
-
 # echo "Check Strongswan status"
 # systemctl status strongswan
 
